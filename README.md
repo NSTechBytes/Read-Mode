@@ -15,6 +15,16 @@
 - **Font Size Adjustment**: Customize the font size of web pages to suit your reading preferences.
 - **Reading Mode**: Simplify webpage content by focusing on main articles or main content sections for a distraction-free reading experience.
 
+## 📸 Screenshots
+
+![Extension Preview Light Mode]
+*Light mode view .*![Light](https://github.com/NSTechBytes/Projects-Templates/blob/main/Extensions/Read%20Mode/Light.png)
+
+
+![Extension Preview Dark Mode]![Dark](https://github.com/NSTechBytes/Projects-Templates/blob/main/Extensions/Read%20Mode/Dark.png)
+
+*Dark mode view .*
+
 ## Installation
 
 ### Prerequisites
