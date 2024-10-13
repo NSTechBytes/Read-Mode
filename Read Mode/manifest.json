@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Read Mode ",
+  "version": "11.0",
+  "description": "A Chrome extension to toggle reading mode, adjust font size, and save pages offline.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "downloads",
+    "tts",
+    "tabs",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "assets/js/background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icons/icon16.png",
+      "48": "assets/icons/icon48.png",
+      "128": "assets/icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "assets/js/content.js"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
